@@ -45,6 +45,12 @@ namespace Tehtava2
 
             }
 
+            foreach (Piste item in pisteet)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadLine();
+
             string s2 = JsonConvert.SerializeObject(pisteet);
             Console.WriteLine(s2);
             Console.ReadLine();
